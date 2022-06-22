@@ -1,0 +1,106 @@
+body {
+    font-family: "Lato", sans-serif;
+  }
+  
+  .sidebar {
+    height: 935px;
+    width: 150px;
+    position: absolute;
+    z-index: 1;
+    top: 0%;
+    right: 0%;
+    bottom: 0%;
+    left: 0%;
+    background-color: #191718;
+    overflow-x: hidden;
+    
+  }
+  
+  .sidebar a {
+    padding: 6px 8px 6px 16px;
+    background: #191718;
+    text-decoration: none;
+    font-size: 13px;
+    color: #818181;
+    display: block;
+    border-bottom: 1px solid;
+  }
+  
+  .sidebar a:hover {
+    color: #f1f1f1;
+    background-color: #5c5c5c;
+    
+  }
+  
+  .main {
+    margin-left: 160px;
+    font-size: 14px;
+    padding: 0px 10px;
+  }
+  
+  .align-center {
+      text-align: center;
+  }
+  
+  .header {
+      padding: 20px 0;
+  }
+  
+  .header .text-red {
+      color: red;
+  }
+  
+  .header .text-header-content {
+      font-size: 17px
+  }
+  
+  .title {
+      padding: 20px 80px;
+      background: #EFEFEF;
+  }
+  
+  .bold {
+      font-weight: 600;
+      font-size: 13px;
+  }
+  
+  .content-title {
+      padding: 20px 0;
+      font-size: 13px
+  }
+  
+  .content {
+      padding: 20px 0;
+  }
+  
+  .flex {
+      display: flex;
+      justify-content: space-between;
+  }
+  
+  .col-3 {
+      width: 32%
+  }
+  
+  .mr {
+      margin-right: 20px
+  }
+  
+  .content .title-content {
+      padding: 15px 0;
+  }
+  
+  .content .text-content img{
+      float: left;
+      width: 90px;
+      margin-right: 10px; 
+  }
+  
+  .content .text-content div{
+      font-size: 13px 
+  }
+  
+  @media screen and (max-height: 450px) {
+    .sidebar {padding-top: 15px;}
+    .sidebar a {font-size: 18px;}
+  }
